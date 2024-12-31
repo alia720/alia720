@@ -5,7 +5,7 @@
 <br clear="both">
 
 <div align="center">
-  <img height="150" src="https://cdnb.artstation.com/p/assets/images/images/026/087/183/original/ilya-shichkin-12.gif?1587836096"  />
+  <img height= "150" src="https://cdnb.artstation.com/p/assets/images/images/026/087/183/original/ilya-shichkin-12.gif?1587836096"  />
 </div>
 
 ###
