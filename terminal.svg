@@ -16,7 +16,7 @@
   <circle cx="66" cy="19" r="7" fill="#28c840"/>
 
   <!-- Title -->
-  <text x="300" y="24" font-family="'Courier New', Courier, monospace" font-size="12" fill="#8b949e" text-anchor="middle">ali@ucalgary: ~</text>
+  <text x="300" y="24" font-family="'Courier New', Courier, monospace" font-size="12" fill="#8b949e" text-anchor="middle">ali.alyasseen@ucalgary: ~</text>
 
   <!-- Separator line -->
   <line x1="0" y1="38" x2="600" y2="38" stroke="#21262d" stroke-width="1"/>
@@ -26,14 +26,14 @@
 
     <!-- whoami -->
     <text x="20" y="66">
-      <tspan fill="#00b4d8">ali@ucalgary</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#90e0ef">~</tspan><tspan fill="#8b949e">$</tspan>
+      <tspan fill="#00b4d8">ali.alyasseen@ucalgary</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#90e0ef">~</tspan><tspan fill="#8b949e">$</tspan>
       <tspan fill="#e6edf3"> whoami</tspan>
     </text>
-    <text x="20" y="86" fill="#8b949e">  ali — CS @ University of Calgary</text>
+    <text x="20" y="86" fill="#8b949e">  ali alyasseen - CS @ University of Calgary</text>
 
     <!-- cat /etc/focus -->
     <text x="20" y="114">
-      <tspan fill="#00b4d8">ali@ucalgary</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#90e0ef">~</tspan><tspan fill="#8b949e">$</tspan>
+      <tspan fill="#00b4d8">ali.alyasseen@ucalgary</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#90e0ef">~</tspan><tspan fill="#8b949e">$</tspan>
       <tspan fill="#e6edf3"> cat /etc/focus</tspan>
     </text>
     <text x="20" y="134" fill="#8b949e">  networking &amp; systems</text>
@@ -41,7 +41,7 @@
 
     <!-- ping hobbies -->
     <text x="20" y="182">
-      <tspan fill="#00b4d8">ali@ucalgary</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#90e0ef">~</tspan><tspan fill="#8b949e">$</tspan>
+      <tspan fill="#00b4d8">ali.alyasseen@ucalgary</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#90e0ef">~</tspan><tspan fill="#8b949e">$</tspan>
       <tspan fill="#e6edf3"> ping hobbies -c 3</tspan>
     </text>
     <text x="20" y="202" fill="#8b949e">  64 bytes: rhythm games       ttl=64 time=0.1 ms</text>
@@ -51,11 +51,12 @@
 
     <!-- cursor line -->
     <text x="20" y="295">
-      <tspan fill="#00b4d8">ali@ucalgary</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#90e0ef">~</tspan><tspan fill="#8b949e">$</tspan>
+      <tspan fill="#00b4d8">ali.alyasseen@ucalgary</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#90e0ef">~</tspan><tspan fill="#8b949e">$</tspan>
       <tspan fill="#e6edf3"> </tspan>
     </text>
-    <!-- blinking cursor block -->
-    <rect x="163" y="280" width="8" height="16" fill="#00b4d8">
+
+    <!-- blinking cursor -->
+    <rect x="225" y="284" width="8" height="16" fill="#00b4d8">
       <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
     </rect>
 
