@@ -1,0 +1,90 @@
+<svg width="620" height="295" viewBox="0 0 620 295" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="clip-frame">
+      <rect width="620" height="295" rx="8"/>
+    </clipPath>
+  </defs>
+
+  <!-- Shadow -->
+  <rect x="3" y="5" width="620" height="295" rx="8" fill="#000" opacity="0.35"/>
+
+  <g clip-path="url(#clip-frame)">
+
+    <!-- Base background -->
+    <rect width="620" height="295" fill="#0d1117"/>
+
+    <!-- Header -->
+    <rect width="620" height="44" fill="#161b22"/>
+
+    <!-- Alternating row shading -->
+    <rect y="99" width="620" height="53" fill="#161b22" opacity="0.5"/>
+    <rect y="191" width="620" height="53" fill="#161b22" opacity="0.5"/>
+
+    <!-- Footer background -->
+    <rect y="245" width="620" height="50" fill="#161b22"/>
+
+    <!-- Horizontal dividers -->
+    <line x1="0" y1="44"  x2="620" y2="44"  stroke="#21262d" stroke-width="1"/>
+    <line x1="0" y1="98"  x2="620" y2="98"  stroke="#21262d" stroke-width="1"/>
+    <line x1="0" y1="152" x2="620" y2="152" stroke="#21262d" stroke-width="1"/>
+    <line x1="0" y1="190" x2="620" y2="190" stroke="#21262d" stroke-width="1"/>
+    <line x1="0" y1="244" x2="620" y2="244" stroke="#21262d" stroke-width="1"/>
+
+    <!-- Footer accent -->
+    <line x1="0" y1="245" x2="620" y2="245" stroke="#00b4d8" stroke-width="1" opacity="0.35"/>
+
+    <!-- Vertical column divider -->
+    <line x1="132" y1="44" x2="132" y2="244" stroke="#21262d" stroke-width="1"/>
+
+    <!-- HEADER -->
+    <g font-family="'Courier New', Courier, monospace">
+      <text x="20"  y="19" font-size="11" fill="#00b4d8" font-weight="bold">FRAME</text>
+      <text x="70"  y="19" font-size="11" fill="#3d4451">0x4a1f</text>
+      <text x="138" y="19" font-size="11" fill="#6e7681">SRC: ali@ucalgary</text>
+      <text x="342" y="19" font-size="11" fill="#6e7681">PROTO: TCP/STACK</text>
+      <text x="20"  y="35" font-size="10" fill="#3d4451">PAYLOAD: technical proficiencies</text>
+    </g>
+
+    <!-- LANGUAGES row (45-98) -->
+    <g font-family="'Courier New', Courier, monospace">
+      <text x="15"  y="74"  font-size="11" fill="#00b4d8" font-weight="bold" letter-spacing="0.5">LANGUAGES</text>
+      <text x="148" y="63"  font-size="12.5" fill="#e6edf3">C  ·  Assembly  ·  Python  ·  TypeScript</text>
+      <text x="148" y="83"  font-size="12.5" fill="#e6edf3">Java  ·  JavaScript  ·  HTML  ·  CSS</text>
+    </g>
+
+    <!-- FRAMEWORKS row (99-152) -->
+    <g font-family="'Courier New', Courier, monospace">
+      <text x="15"  y="128" font-size="11" fill="#00b4d8" font-weight="bold" letter-spacing="0.5">FRAMEWORKS</text>
+      <text x="148" y="117" font-size="12.5" fill="#e6edf3">React  ·  Svelte  ·  Node.js  ·  PyQt</text>
+      <text x="148" y="137" font-size="12.5" fill="#e6edf3">Tailwind  ·  Docker  ·  REST API  ·  Make</text>
+    </g>
+
+    <!-- DATABASES row (153-190) -->
+    <g font-family="'Courier New', Courier, monospace">
+      <text x="15"  y="175" font-size="11" fill="#00b4d8" font-weight="bold" letter-spacing="0.5">DATABASES</text>
+      <text x="148" y="175" font-size="12.5" fill="#e6edf3">PostgreSQL  ·  MySQL</text>
+    </g>
+
+    <!-- CLOUD row (191-244) -->
+    <g font-family="'Courier New', Courier, monospace">
+      <text x="15"  y="220" font-size="11" fill="#00b4d8" font-weight="bold" letter-spacing="0.5">CLOUD</text>
+      <text x="148" y="209" font-size="12.5" fill="#e6edf3">AWS  ·  Terraform  ·  Amazon S3</text>
+      <text x="148" y="229" font-size="12.5" fill="#e6edf3">Lambda  ·  DynamoDB</text>
+    </g>
+
+    <!-- FOOTER -->
+    <g font-family="'Courier New', Courier, monospace" font-size="11">
+      <text x="20"  y="268" fill="#3d4451">STATUS:</text>
+      <text x="78"  y="268" fill="#28c840">OPEN</text>
+      <text x="140" y="268" fill="#3d4451">CHECKSUM:</text>
+      <text x="218" y="268" fill="#28c840">valid</text>
+      <text x="276" y="268" fill="#3d4451">FLAGS:</text>
+      <text x="318" y="268" fill="#00b4d8">SYN ACK</text>
+      <text x="394" y="268" fill="#3d4451">TTL:</text>
+      <text x="422" y="268" fill="#8b949e">64</text>
+      <text x="462" y="268" fill="#3d4451">SEQ:</text>
+      <text x="494" y="268" fill="#8b949e">0x01</text>
+    </g>
+
+  </g>
+</svg>
